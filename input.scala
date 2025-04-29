@@ -10,7 +10,6 @@ def userInput(): Unit ={
   println(Random.nextInt(100))
   println(Random.nextPrintableChar())
   println(Random.nextString(20))
-  println("added new line at 13")
 
   println("welcome Dear user\n can i know your name please:")
   val name = StdIn.readLine()
