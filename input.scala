@@ -7,8 +7,8 @@ def userInput(): Unit ={
 //  val input = StdIn.readLine()
 //  println(input.toInt*10)
   println(Random.nextInt())
-  println(Random.nextInt(100))
-  println(Random.nextPrintableChar())
+ // println(Random.nextInt(100))
+  //println(Random.nextPrintableChar())
   println(Random.nextString(20))
   print("from dev")
 
