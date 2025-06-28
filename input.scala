@@ -10,6 +10,8 @@ def userInput(): Unit ={
  // println(Random.nextInt(100))
   //println(Random.nextPrintableChar())
   println(Random.nextString(20))
+  print("from dev")
+  print("changed in feature_1")
 
   println("welcome Dear user\n can i know your name please:")
   val name = StdIn.readLine()
