@@ -34,12 +34,12 @@ git push origin dev    (this will also push from local to remote dev , but here 
 
 
 
-git merge dev (When you want local changes  merged into your current branch)
-
 git reset --hard origin/dev (if you want to force your local to excatly match with remote
 								,i.e. make sure your local changes will be lost, before this we need to do fetch origin and checkout to correct branch)
 								
 git pull origin dev ( to pull commits from remote dev to local dev
 											,i.e, before this we need to do fetch origin and checkout to correct branch)
 								
+								
+feture_4
 								
