@@ -1,5 +1,7 @@
 import scala.io.StdIn
 import scala.util.Random
+import scala.io.StdIn
+import scala.util.Random
 
 @main
 def userInput(): Unit ={
@@ -7,11 +9,13 @@ def userInput(): Unit ={
 //  val input = StdIn.readLine()
 //  println(input.toInt*10)
   println(Random.nextInt())
-  println(Random.nextInt(100))
-  println(Random.nextPrintableChar())
+ // println(Random.nextInt(100))
+  //println(Random.nextPrintableChar())
   println(Random.nextString(20))
   print("from dev")
-// added for pull request labels
+  print("changed in feature_1")
+  print("change in feature_2")
+// added for lables
 
   println("welcome Dear user\n can i know your name please:")
   val name = StdIn.readLine()
