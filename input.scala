@@ -11,6 +11,7 @@ def userInput(): Unit ={
   println(Random.nextPrintableChar())
   println(Random.nextString(20))
   print("from dev")
+// added for pull request labels
 
   println("welcome Dear user\n can i know your name please:")
   val name = StdIn.readLine()
