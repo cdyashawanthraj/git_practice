@@ -1,0 +1,45 @@
+git clone https://github.com/cdyashawanthraj/git_practice.git 
+
+git clone --branch feature https://github.com/cdyashawanthraj/git_practice.git  (to clone one specific branch)
+
+*  (crruent branch)
+
+git branch (list all lcoal branch)
+
+git branch -r (list all remote branch)
+
+git branch -a (list all remote + local branch)
+
+git checkout dev  (when you do this commit the changes in cuurent branch)
+				(if changes were not commited it will carry to new branch or in this case dev)
+				(this will create a loacl dev branch if not exist and set track with remote dev)
+				(if branchg exist switch to brach)
+				
+				
+git diff (compares with previoyus local version)
+
+origin (it refers git url)
+
+git fetch origin dev ( fetch the latest state of remote dev branch and does not merge ,
+							will make use to compare when we run git status )
+							
+git rebase origin/dev  ( when your local is behind some commit use this to sync with remote. this will apply your commits on top of the latest remote commits)
+# OR
+git merge origin/dev         
+
+
+git push origin feature:dev (when pushing commits from local(feature) to remote(dev) 
+or
+git push origin dev    (this will also push from local to remote dev , but here we have to make sure we are on correct branch on local)
+
+
+
+git merge dev (When you want local changes  merged into your current branch)
+
+git reset --hard origin/dev (if you want to force your local to excatly match with remote
+								,i.e. make sure your local changes will be lost, before this we need to do fetch origin and checkout to correct branch)
+								
+git pull origin dev ( to pull commits from remote dev to local dev
+											,i.e, before this we need to do fetch origin and checkout to correct branch)
+								
+								
